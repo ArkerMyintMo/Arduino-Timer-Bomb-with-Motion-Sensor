@@ -3,7 +3,7 @@
 
 Propose system
 1. Once we power the bomb, we are asked to set the password and the time we want to give it.
-2. Once the password and timer have been set, the bomb will be active. The time is reduced by 1 second.
+2. Once the password and timer have been set, the bomb will be activated. The time is reduced by 1 second.
 3. If the enemy tries to diffuse the bomb, press the "*" button to extract the password. If the password is correct, the bomb will be prompted to reset the timer and password, and if the password is incorrect, the current time will be reduced by half. If the enemy repeats the wrong password and the timer == 0, then the bomb is explosive.
 4. At the same time, if moving objects come within 3 meters specified by the motion sensor, the current time will be reduced by half. The motion sensor is forced to work in a loop and threshold values are set. When the value in the loop is equal to the threshold value, the motion sensor will reduce the time. If timer == 0, then the bomb is explosive.
 
